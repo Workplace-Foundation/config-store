@@ -1,0 +1,50 @@
+{
+    "Android": {
+        "managed": {
+            "minimum_required": {
+                "Build": "12.0"
+            },
+            "minimum_warning": {
+                "Build": ""
+            },
+            "minimum_wipe": {
+                "Build": ""
+            }
+        },
+        "unmanaged": {
+            "minimum_required": {
+                "Build": "12.0"
+            },
+            "minimum_warning": {
+                "Build": ""
+            },
+            "minimum_wipe": {
+                "Build": ""
+            }
+        }
+    },
+    "iOSiPadOS": {
+        "managed": {
+            "minimum_required": {
+                "Build": "15.8.4"
+            },
+            "minimum_warning": {
+                "Build": ""
+            },
+            "minimum_wipe": {
+                "Build": ""
+            }
+        },
+        "unmanaged": {
+            "minimum_required": {
+                "Build": "15.8.4"
+            },
+            "minimum_warning": {
+                "Build": ""
+            },
+            "minimum_wipe": {
+                "Build": ""
+            }
+        }
+    }
+}

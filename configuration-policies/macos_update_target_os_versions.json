@@ -1,0 +1,8 @@
+{
+    "Sonoma": {
+        "Build": "14.7.7"
+    },
+    "default_ring": {
+        "Build": "15.6"
+    }
+}
