@@ -1,34 +1,53 @@
 {
-    "22H2": {
-        "KB": "KB5063875",
-        "Build": "22621.5768",
-        "ReleaseDate": "2025-08-12",
-        "Changes": [
-            "Sicherheitsupdates für Dateisystem, Netzwerk, Drucker und Stabilität",
-            "Servicing Stack Update enthalten",
-            "Fixes für lokale Privilegieneskalation und Use-after-free-Szenarien"
-        ]
+    "Windows10": {
+        "22H2": {
+            "Build": "10.0.19045.6093"
+        }
     },
-    "23H2": {
-        "KB": "KB5063875",
-        "Build": "22631.5768",
-        "ReleaseDate": "2025-08-12",
-        "Changes": [
-            "Sicherheitsupdates für Dateisystem, Netzwerk, Drucker und Stabilität",
-            "Servicing Stack Update enthalten",
-            "Fixes für lokale Privilegieneskalation und Use-after-free-Szenarien"
-        ]
+    "Windows11": {
+        "22H2": {
+            "Build": "10.0.22621.5624"
+        },
+        "23H2": {
+            "Build": "10.0.22631.5624"
+        },
+        "24H2": {
+            "Build": "10.0.26100.4652"
+        },
+        "Future": {
+            "Build": "10.0.65535.65535"
+        }
     },
-    "24H2": {
-        "KB": "KB5063878",
-        "Build": "26100.4946",
-        "ReleaseDate": "2025-08-12",
-        "Changes": [
-            "Neue KI-Funktionen für Recall, Click to Do und Einstellungen",
-            "Quick Machine Recovery zur automatischen Fehlerbehebung beim Booten",
-            "Redesign des Black Screen of Death",
-            "Servicing Stack Update enthalten",
-            "Fixes für File Explorer, Desktop, Benachrichtigungen und mehr"
-        ]
+    "Android": {},
+    "iOSiPadOS": {
+        "15": {
+            "Build": "15.8.4"
+        },
+        "16": {
+            "Build": "16.7.11"
+        },
+        "17": {
+            "Build": "17.7.7"
+        },
+        "18": {
+            "Build": "18.6"
+        },
+        "Future": {
+            "Build": "19.0"
+        }
+    },
+    "macOS": {
+        "Ventura": {
+            "Build": "13.7.6"
+        },
+        "Sonoma": {
+            "Build": "14.7.6"
+        },
+        "Sequoia": {
+            "Build": "15.5"
+        },
+        "Future": {
+            "Build": "16.0"
+        }
     }
 }
