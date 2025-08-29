@@ -21,7 +21,14 @@
             "Build": "10.0.26101.0"
         }
     },
-    "Android": {},
+    "Android": {
+        "PoWP": {
+            "Build": "12.0"
+        },
+        "FM-CoWP": {
+            "Build": "12.0"
+        }
+    },
     "iOSiPadOS": {
         "15": {
             "Build": "15.8.4"
