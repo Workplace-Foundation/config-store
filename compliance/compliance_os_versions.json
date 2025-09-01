@@ -21,6 +21,12 @@
             "Build": "10.0.26101.0"
         }
     },
+    "Windows-Notification-Template-Text": {
+        "CU-Month": {
+            "de-de": "Juli 2025 Patch",
+            "en-us": "July 2025 patch"
+        }
+    },
     "Android": {
         "PoWP": {
             "Build": "12.0"
