@@ -1,21 +1,21 @@
 {
     "Windows10": {
         "22H2": {
-            "Build": "10.0.19045.6093"
+            "Build": "10.0.19045.6216"
         }
     },
     "Windows11": {
         "22H2": {
-            "Build": "10.0.22621.5624"
+            "Build": "10.0.22621.5768"
         },
         "23H2": {
-            "Build": "10.0.22631.5624"
+            "Build": "10.0.22631.5768"
         },
         "24H2": {
-            "Build": "10.0.26100.4652"
+            "Build": "10.0.26100.4946"
         },
         "24H2-Beta": {
-            "Build": "10.0.26120.4733"
+            "Build": "10.0.26120.5742"
         },
         "25H2": {
             "Build": "10.0.26200.5074"
@@ -26,8 +26,8 @@
     },
     "Windows-Notification-Template-Text": {
         "CU-month": {
-            "de-de": "Juli 2025 Patch",
-            "en-us": "July 2025 patch"
+            "de-de": "August 2025 Patch",
+            "en-us": "August 2025 patch"
         }
     },
     "Android": {
