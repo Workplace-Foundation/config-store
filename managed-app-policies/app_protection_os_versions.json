@@ -26,7 +26,7 @@
     "iOSiPadOS": {
         "managed": {
             "minimum_required": {
-                "Build": "15.8.4"
+                "Build": "15.8.5"
             },
             "minimum_warning": {
                 "Build": ""
@@ -37,7 +37,7 @@
         },
         "unmanaged": {
             "minimum_required": {
-                "Build": "15.8.4"
+                "Build": "15.8.5"
             },
             "minimum_warning": {
                 "Build": ""
