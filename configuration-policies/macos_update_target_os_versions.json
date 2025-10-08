@@ -1,6 +1,6 @@
 {
     "default_ring": {
-        "Build": "15.7.1",
+        "Build": "26.0.1",
         "target_time": "2025-10-08T17:00:00"
     },
     "Sonoma": {
