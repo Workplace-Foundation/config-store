@@ -1,24 +1,24 @@
 {
     "Windows10": {
         "22H2": {
-            "Build": "10.0.19045.6332"
+            "Build": "10.0.19045.6216"
         }
     },
     "Windows11": {
         "22H2": {
-            "Build": "10.0.22621.5909"
+            "Build": "10.0.22621.5768"
         },
         "23H2": {
-            "Build": "10.0.22631.5909"
+            "Build": "10.0.22631.5768"
         },
         "24H2": {
-            "Build": "10.0.26100.6584"
+            "Build": "10.0.26100.4946"
         },
         "24H2-Beta": {
             "Build": "10.0.26120.5742"
         },
         "25H2": {
-            "Build": "10.0.26200.6584"
+            "Build": "10.0.26200.5074"
         },
         "Future": {
             "Build": "10.0.26201.0"
@@ -26,8 +26,8 @@
     },
     "Windows-Notification-Template-Text": {
         "CU-month": {
-            "de-de": "September 2025 Patch",
-            "en-us": "September 2025 patch"
+            "de-de": "August 2025 Patch",
+            "en-us": "August 2025 patch"
         }
     },
     "Android": {
@@ -40,33 +40,39 @@
     },
     "iOSiPadOS": {
         "15": {
-            "Build": "15.8.5"
+            "Build": "15.8.4"
         },
         "16": {
-            "Build": "16.7.12"
+            "Build": "16.7.11"
         },
         "17": {
             "Build": "17.7.7"
         },
         "18": {
-            "Build": "18.7.1"
+            "Build": "18.6.2"
+        },
+        "26": {
+            "Build": "26.0.1"
         },
         "Future": {
-            "Build": "19.0"
+            "Build": "27.0"
         }
     },
     "macOS": {
         "Ventura": {
-            "Build": "13.7.8"
+            "Build": "13.7.7"
         },
         "Sonoma": {
-            "Build": "14.8"
+            "Build": "14.7.7"
         },
         "Sequoia": {
-            "Build": "15.7.1"
+            "Build": "15.6"
+        },
+        "Tahoe": {
+            "Build": "26.0"
         },
         "Future": {
-            "Build": "16.0"
+            "Build": "27.0"
         }
     }
 }
