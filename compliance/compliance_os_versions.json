@@ -1,33 +1,41 @@
 {
     "Windows10": {
         "22H2": {
-            "Build": "10.0.19045.6332"
+            "Build": "10.0.19045.6456",
+            "_comment": "set on 2025-11-13, 6456 is	2025-10"
         }
     },
     "Windows11": {
         "22H2": {
-            "Build": "10.0.22621.5909"
+            "Build": "10.0.22621.6060",
+            "_comment": "set on 2025-11-13, 6060 is	2025-10"
         },
         "23H2": {
-            "Build": "10.0.22631.5909"
+            "Build": "10.0.22631.6060",
+            "_comment": "set on 2025-11-13, 6060 is	2025-10"
         },
         "24H2": {
-            "Build": "10.0.26100.6584"
+            "Build": "10.0.26100.6899",
+            "_comment": "set on 2025-11-13, 6899 is	2025-10"
         },
         "24H2-Beta": {
-            "Build": "10.0.26120.5742"
+            "Build": "10.0.26120.6772",
+            "_comment": "set on 2025-11-13, 6772 is	2025-10"
         },
         "25H2": {
-            "Build": "10.0.26200.6584"
+            "Build": "10.0.26200.6899",
+            "_comment": "set on 2025-11-13, 6899 is	2025-10"
         },
         "Future": {
-            "Build": "10.0.26201.0"
+            "Build": "10.0.26201.0",
+            "_comment": "set date is not relevant"
         }
     },
     "Windows-Notification-Template-Text": {
         "CU-month": {
-            "de-de": "September 2025 Patch",
-            "en-us": "September 2025 patch"
+            "de-de": "Oktober 2025 Patch",
+            "en-us": "October 2025 patch",
+            "_comment": "set on 2025-11-13"
         }
     },
     "Android": {
@@ -52,12 +60,12 @@
             "_comment": "set on 2025-10-15, info iPadOS already on 17.7.10"
         },
         "18": {
-            "Build": "18.7.1",
-            "_comment": "set on 2025-10-15"
+            "Build": "18.7.2",
+            "_comment": "set on 2025-11-13, was 18.7.1"
         },
         "26": {
-            "Build": "26.0.1",
-            "_comment": "set on 2025-10-15"
+            "Build": "26.1",
+            "_comment": "set on 2025-11-13, was 26.0.1"
         },
         "Future": {
             "Build": "27.0",
@@ -70,16 +78,16 @@
             "_comment": "set a long time ago"
         },
         "Sonoma": {
-            "Build": "14.8.1",
-            "_comment": "set on 2025-10-23"
+            "Build": "14.8.2",
+            "_comment": "set on 2025-11-13, was 14.8.1"
         },
         "Sequoia": {
-            "Build": "15.7.1",
-            "_comment": "set on 2025-10-15"
+            "Build": "15.7.2",
+            "_comment": "set on 2025-10-15, was 15.7.2"
         },
         "Tahoe": {
-            "Build": "26.0.1",
-            "_comment": "set on 2025-10-23"
+            "Build": "26.1",
+            "_comment": "set on 2025-10-23, was 26.0.1"
         },
         "Future": {
             "Build": "27.0",
