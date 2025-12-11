@@ -20,7 +20,7 @@
         },
         "24H2-Beta": {
             "Build": "10.0.26120.6982",
-            "_comment": "set on 2025-12-11, 6982 is 2025-10-24, https://en.wikipedia.org/wiki/Windows_11_version_history"
+            "_comment": "set on 2025-12-11, 6982 is 2025-10-24, Source is en.wikipedia.org/wiki/Windows_11_version_history"
         },
         "25H2": {
             "Build": "10.0.26200.7171",
