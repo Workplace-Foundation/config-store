@@ -1,8 +1,8 @@
 {
     "Windows10": {
         "22H2": {
-            "Build": "10.0.19045.6456",
-            "_comment": "set on 2025-11-13, 6456 is 2025-10"
+            "Build": "10.0.19045.6575",
+            "_comment": "set on 2025-12-11, 6575 is 2025-11"
         }
     },
     "Windows11": {
@@ -11,20 +11,20 @@
             "_comment": "set on 2025-11-13, 6060 is 2025-10"
         },
         "23H2": {
-            "Build": "10.0.22631.6060",
-            "_comment": "set on 2025-11-13, 6060 is 2025-10"
+            "Build": "10.0.22631.6199",
+            "_comment": "set on 2025-12-11, 6199 is 2025-11"
         },
         "24H2": {
-            "Build": "10.0.26100.6899",
-            "_comment": "set on 2025-11-13, 6899 is 2025-10"
+            "Build": "10.0.26100.7171",
+            "_comment": "set on 2025-12-11, 7171 is 2025-10"
         },
         "24H2-Beta": {
-            "Build": "10.0.26120.6772",
-            "_comment": "set on 2025-11-13, 6772 is 2025-10"
+            "Build": "10.0.26120.6982",
+            "_comment": "set on 2025-12-11, 6982 is 2025-10-24, https://en.wikipedia.org/wiki/Windows_11_version_history"
         },
         "25H2": {
-            "Build": "10.0.26200.6899",
-            "_comment": "set on 2025-11-13, 6899 is 2025-10"
+            "Build": "10.0.26200.7171",
+            "_comment": "set on 2025-12-11, 7171 is 2025-11"
         },
         "Future": {
             "Build": "10.0.26201.0",
@@ -33,9 +33,9 @@
     },
     "Windows-Notification-Template-Text": {
         "CU-month": {
-            "de-de": "Oktober 2025 Patch",
-            "en-us": "October 2025 patch",
-            "_comment": "set on 2025-11-13"
+            "de-de": "November 2025 Patch",
+            "en-us": "November 2025 patch",
+            "_comment": "set on 2025-12-11"
         }
     },
     "Android": {
