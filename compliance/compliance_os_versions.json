@@ -60,12 +60,12 @@
             "_comment": "set on 2025-10-15, info iPadOS already on 17.7.10"
         },
         "18": {
-            "Build": "18.7.2",
-            "_comment": "set on 2025-11-13, was 18.7.1"
+            "Build": "18.7.3",
+            "_comment": "set on 2025-12-18, was 18.7.2"
         },
         "26": {
-            "Build": "26.1",
-            "_comment": "set on 2025-11-13, was 26.0.1"
+            "Build": "26.2",
+            "_comment": "set on 2025-12-18, was 26.1"
         },
         "Future": {
             "Build": "27.0",
@@ -78,16 +78,16 @@
             "_comment": "set a long time ago"
         },
         "Sonoma": {
-            "Build": "14.8.2",
-            "_comment": "set on 2025-11-13, was 14.8.1"
+            "Build": "14.8.3",
+            "_comment": "set on 2025-12-18, was 14.8.2"
         },
         "Sequoia": {
-            "Build": "15.7.2",
-            "_comment": "set on 2025-10-15, was 15.7.2"
+            "Build": "15.7.3",
+            "_comment": "set on 2025-12-18, was 15.7.2"
         },
         "Tahoe": {
-            "Build": "26.1",
-            "_comment": "set on 2025-10-23, was 26.0.1"
+            "Build": "26.2",
+            "_comment": "set on 2025-12-18, was 26.1"
         },
         "Future": {
             "Build": "27.0",
