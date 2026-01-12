@@ -86,8 +86,8 @@
             "_comment": "set on 2025-12-18, was 15.7.2"
         },
         "Tahoe": {
-            "Build": "26.1",
-            "_comment": "set on 2025-11-13, was 26.0.1"
+            "Build": "26.2",
+            "_comment": "set on 2026-01-12, was 26.1"
         },
         "Future": {
             "Build": "27.0",
