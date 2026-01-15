@@ -1,30 +1,30 @@
 {
     "Windows10": {
         "22H2": {
-            "Build": "10.0.19045.6575",
-            "_comment": "set on 2025-12-11, 6575 is 2025-11"
+            "Build": "10.0.19045.6691",
+            "_comment": "set on 2026-01-15, 6691 is 2025-12"
         }
     },
     "Windows11": {
         "22H2": {
             "Build": "10.0.22621.6060",
-            "_comment": "set on 2025-11-13, 6060 is 2025-10"
+            "_comment": "set on 2025-11-13, 6060 is 2025-10 and End of servicing"
         },
         "23H2": {
-            "Build": "10.0.22631.6199",
-            "_comment": "set on 2025-12-11, 6199 is 2025-11"
+            "Build": "10.0.22631.6345",
+            "_comment": "set on 2026-01-15, 6345 is 2025-12"
         },
         "24H2": {
-            "Build": "10.0.26100.7171",
-            "_comment": "set on 2025-12-11, 7171 is 2025-10"
+            "Build": "10.0.26100.7462",
+            "_comment": "set on 2026-01-15, 7462 is 2025-12"
         },
         "24H2-Beta": {
             "Build": "10.0.26120.6982",
             "_comment": "set on 2025-12-11, 6982 is 2025-10-24, Source is en.wikipedia.org/wiki/Windows_11_version_history"
         },
         "25H2": {
-            "Build": "10.0.26200.7171",
-            "_comment": "set on 2025-12-11, 7171 is 2025-11"
+            "Build": "10.0.26200.7462",
+            "_comment": "set on 2026-01-15, 7462 is 2025-12"
         },
         "Future": {
             "Build": "10.0.26201.0",
