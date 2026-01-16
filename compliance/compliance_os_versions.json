@@ -33,9 +33,9 @@
     },
     "Windows-Notification-Template-Text": {
         "CU-month": {
-            "de-de": "November 2025 Patch",
-            "en-us": "November 2025 patch",
-            "_comment": "set on 2025-12-11"
+            "de-de": "November 2026 Patch",
+            "en-us": "November 2026 patch",
+            "_comment": "set on 2026-01-16"
         }
     },
     "Android": {
