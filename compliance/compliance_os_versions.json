@@ -1,8 +1,8 @@
 {
     "Windows10": {
         "22H2": {
-            "Build": "10.0.19045.6691",
-            "_comment": "set on 2026-01-15, 6691 is 2025-12"
+            "Build": "10.0.19045.6809",
+            "_comment": "set on 2026-02-12, was 6691, 6809 is 2026-01"
         }
     },
     "Windows11": {
@@ -11,20 +11,20 @@
             "_comment": "set on 2025-11-13, 6060 is 2025-10 and End of servicing"
         },
         "23H2": {
-            "Build": "10.0.22631.6345",
-            "_comment": "set on 2026-01-15, 6345 is 2025-12"
+            "Build": "10.0.22631.6491",
+            "_comment": "set on 2026-02-12, was 6345, 6491 is 2026-01"
         },
         "24H2": {
-            "Build": "10.0.26100.7462",
-            "_comment": "set on 2026-01-15, 7462 is 2025-12"
+            "Build": "10.0.26100.7623",
+            "_comment": "set on 2026-02-12, was 7462, 7623 is 2026-01"
         },
         "24H2-Beta": {
             "Build": "10.0.26120.6982",
             "_comment": "set on 2025-12-11, 6982 is 2025-10-24, Source is en.wikipedia.org/wiki/Windows_11_version_history"
         },
         "25H2": {
-            "Build": "10.0.26200.7392",
-            "_comment": "set on 2026-01-15, 7462 is CU from 2025-12-09, 7392 is Hotfix from 2025-12-09"
+            "Build": "10.0.26200.7623",
+            "_comment": "set on 2026-02-12, was 7392, 7623 is CU from 2026-01-13, 7623 is Hotfix from 2026-01-13"
         },
         "Future": {
             "Build": "10.0.26201.0",
@@ -33,9 +33,9 @@
     },
     "Windows-Notification-Template-Text": {
         "CU-month": {
-            "de-de": "Dezember 2025 Patch",
-            "en-us": "December 2025 patch",
-            "_comment": "set on 2026-01-16"
+            "de-de": "January 2026 Patch",
+            "en-us": "January 2026 patch",
+            "_comment": "set on 2026-02-12"
         }
     },
     "Android": {
