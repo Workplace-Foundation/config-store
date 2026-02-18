@@ -26,6 +26,14 @@
             "Build": "10.0.26200.7623",
             "_comment": "set on 2026-02-12, was 7392, 7623 is CU from 2026-01-13, 7623 is Hotfix from 2026-01-13"
         },
+        "25H2-Beta": {
+            "Build": "10.0.26220.6982",
+            "_comment": "added 2026-02-18, 6982 is 2025-10-24"
+        },
+        "26H1": {
+            "Build": "10.0.28000.1575",
+            "_comment": "added 2026-02-18, 1575 is release from 2026-02-10"
+        },
         "Future": {
             "Build": "10.0.26201.0",
             "_comment": "set date is not relevant"
