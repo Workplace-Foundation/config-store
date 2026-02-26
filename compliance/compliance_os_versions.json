@@ -26,8 +26,16 @@
             "Build": "10.0.26200.7623",
             "_comment": "set on 2026-02-12, was 7392, 7623 is CU from 2026-01-13, 7623 is Hotfix from 2026-01-13"
         },
+        "25H2-Beta": {
+            "Build": "10.0.26220.6982",
+            "_comment": "added 2026-02-18, 6982 is 2025-10-24, Source is en.wikipedia.org/wiki/Windows_11_version_history"
+        },
+        "26H1": {
+            "Build": "10.0.28000.1575",
+            "_comment": "added 2026-02-18, 1575 is release from 2026-02-10"
+        },
         "Future": {
-            "Build": "10.0.26201.0",
+            "Build": "10.0.28001.0",
             "_comment": "set date is not relevant"
         }
     },
@@ -48,24 +56,24 @@
     },
     "iOSiPadOS": {
         "15": {
-            "Build": "15.8.5",
-            "_comment": "set on 2025-10-15"
+            "Build": "15.8.6",
+            "_comment": "set on 2026-02-26"
         },
         "16": {
-            "Build": "16.7.12",
-            "_comment": "set on 2025-10-15"
+            "Build": "16.7.14",
+            "_comment": "set on 2026-02-26"
         },
         "17": {
             "Build": "17.7.7",
             "_comment": "set on 2025-10-15, info iPadOS already on 17.7.10"
         },
         "18": {
-            "Build": "18.7.3",
-            "_comment": "set on 2025-12-18, was 18.7.2"
+            "Build": "18.7.5",
+            "_comment": "set on 2026-02-26, was 18.7.3"
         },
         "26": {
-            "Build": "26.2",
-            "_comment": "set on 2025-12-18, was 26.1"
+            "Build": "26.3",
+            "_comment": "set on 2026-02-26, was 26.2"
         },
         "Future": {
             "Build": "27.0",
@@ -78,16 +86,16 @@
             "_comment": "set a long time ago"
         },
         "Sonoma": {
-            "Build": "14.8.3",
-            "_comment": "set on 2025-12-18, was 14.8.2"
+            "Build": "14.8.4",
+            "_comment": "set on 2026-02-26, was 14.8.3"
         },
         "Sequoia": {
-            "Build": "15.7.3",
-            "_comment": "set on 2025-12-18, was 15.7.2"
+            "Build": "15.7.4",
+            "_comment": "set on 2026-02-26, was 15.7.3"
         },
         "Tahoe": {
-            "Build": "26.2",
-            "_comment": "set on 2026-01-12, was 26.1"
+            "Build": "26.3",
+            "_comment": "set on 2026-02-26, was 26.2"
         },
         "Future": {
             "Build": "27.0",
