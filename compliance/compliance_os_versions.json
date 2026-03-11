@@ -72,8 +72,8 @@
             "_comment": "set on 2026-02-26, was 18.7.3"
         },
         "26": {
-            "Build": "26.3",
-            "_comment": "set on 2026-02-26, was 26.2"
+            "Build": "26.3.1",
+            "_comment": "set on 2026-03-10, was 26.3"
         },
         "Future": {
             "Build": "27.0",
