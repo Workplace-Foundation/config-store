@@ -1,8 +1,8 @@
 {
     "Windows10": {
         "22H2": {
-            "Build": "10.0.19045.6809",
-            "_comment": "set on 2026-02-12, was 6691, 6809 is 2026-01"
+            "Build": "10.0.19045.6937",
+            "_comment": "set on 2026-03-11, was 6809, 6937 is 2026-02"
         }
     },
     "Windows11": {
@@ -11,39 +11,39 @@
             "_comment": "set on 2025-11-13, 6060 is 2025-10 and End of servicing"
         },
         "23H2": {
-            "Build": "10.0.22631.6491",
-            "_comment": "set on 2026-02-12, was 6345, 6491 is 2026-01"
+            "Build": "10.0.22631.6649",
+            "_comment": "set on 2026-03-11, was 6491, 6649 is 2026-02"
         },
         "24H2": {
-            "Build": "10.0.26100.7623",
-            "_comment": "set on 2026-02-12, was 7462, 7623 is 2026-01"
+            "Build": "10.0.26100.7840",
+            "_comment": "set on 2026-03-11, was 7623, 7840 is 2026-02"
         },
         "24H2-Beta": {
             "Build": "10.0.26120.6982",
             "_comment": "set on 2025-12-11, 6982 is 2025-10-24, Source is en.wikipedia.org/wiki/Windows_11_version_history"
         },
         "25H2": {
-            "Build": "10.0.26200.7623",
-            "_comment": "set on 2026-02-12, was 7392, 7623 is CU from 2026-01-13, 7623 is Hotfix from 2026-01-13"
+            "Build": "10.0.26200.7781",
+            "_comment": "set on 2026-03-11, was 7623, 7840 is CU from 2026-02-10, 7781 is Hotpatch from 2026-02-10"
         },
         "25H2-Beta": {
-            "Build": "10.0.26220.6982",
-            "_comment": "added 2026-02-18, 6982 is 2025-10-24, Source is en.wikipedia.org/wiki/Windows_11_version_history"
+            "Build": "10.0.26220.7872",
+            "_comment": "set on 2026-03-11, was 6982, 6982 is 2025-10-24, 7872 is 2026-02-20"
         },
         "26H1": {
             "Build": "10.0.28000.1575",
-            "_comment": "added 2026-02-18, 1575 is release from 2026-02-10"
+            "_comment": "set on 2026-03-11, 1575 is release from 2026-02-10"
         },
         "Future": {
-            "Build": "10.0.26201.0",
+            "Build": "10.0.26221.0",
             "_comment": "set date is not relevant"
         }
     },
     "Windows-Notification-Template-Text": {
         "CU-month": {
-            "de-de": "January 2026 Patch",
-            "en-us": "January 2026 patch",
-            "_comment": "set on 2026-02-12"
+            "de-de": "February 2026 Patch",
+            "en-us": "February 2026 patch",
+            "_comment": "set on 2026-03-11"
         }
     },
     "Android": {
@@ -72,8 +72,8 @@
             "_comment": "set on 2026-02-26, was 18.7.3"
         },
         "26": {
-            "Build": "26.3",
-            "_comment": "set on 2026-02-26, was 26.2"
+            "Build": "26.3.1",
+            "_comment": "set on 2026-03-10, was 26.3"
         },
         "Future": {
             "Build": "27.0",
@@ -94,8 +94,8 @@
             "_comment": "set on 2026-02-26, was 15.7.3"
         },
         "Tahoe": {
-            "Build": "26.3",
-            "_comment": "set on 2026-02-26, was 26.2"
+            "Build": "26.3.1",
+            "_comment": "set on 2026-03-10, was 26.3"
         },
         "Future": {
             "Build": "27.0",
