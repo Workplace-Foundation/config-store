@@ -56,11 +56,11 @@
     },
     "iOSiPadOS": {
         "15": {
-            "Build": "15.8.6",
+            "Build": "15.8.7",
             "_comment": "set on 2026-02-26"
         },
         "16": {
-            "Build": "16.7.14",
+            "Build": "16.7.15",
             "_comment": "set on 2026-02-26"
         },
         "17": {
@@ -69,7 +69,7 @@
         },
         "18": {
             "Build": "18.7.5",
-            "_comment": "set on 2026-02-26, was 18.7.3"
+            "_comment": "set on 2026-02-26, was 18.7.3, info iOS is already on 18.7.6"
         },
         "26": {
             "Build": "26.3.1",
