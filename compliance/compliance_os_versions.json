@@ -68,8 +68,8 @@
             "_comment": "set on 2025-10-15, info iPadOS already on 17.7.10"
         },
         "18": {
-            "Build": "18.7.6",
-            "_comment": "set on 2026-03-27, was 18.7.4, info iPadOS is already on 18.7.7"
+            "Build": "18.7.7",
+            "_comment": "set on 2026-03-27, was 18.7.5"
         },
         "26": {
             "Build": "26.4",
