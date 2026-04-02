@@ -86,8 +86,8 @@
             "_comment": "set a long time ago"
         },
         "Sonoma": {
-            "Build": "14.8.4",
-            "_comment": "set on 2026-02-26, was 14.8.3"
+            "Build": "14.8.5",
+            "_comment": "set on 2026-04-01, was 14.8.4"
         },
         "Sequoia": {
             "Build": "15.7.5",
