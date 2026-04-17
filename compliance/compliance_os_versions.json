@@ -41,7 +41,7 @@
     },
     "Windows-Notification-Template-Text": {
         "CU-month": {
-            "de-de": "March 2026 Patch",
+            "de-de": "März 2026 Patch",
             "en-us": "March 2026 patch",
             "_comment": "set on 2026-04-17"
         }
