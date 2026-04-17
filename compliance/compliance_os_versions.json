@@ -41,9 +41,9 @@
     },
     "Windows-Notification-Template-Text": {
         "CU-month": {
-            "de-de": "February 2026 Patch",
-            "en-us": "February 2026 patch",
-            "_comment": "set on 2026-03-11"
+            "de-de": "March 2026 Patch",
+            "en-us": "March 2026 patch",
+            "_comment": "set on 2026-04-17"
         }
     },
     "Android": {
