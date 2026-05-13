@@ -60,8 +60,8 @@
             "_comment": "set on 2026-02-26"
         },
         "16": {
-            "Build": "16.7.15",
-            "_comment": "set on 2026-02-26"
+            "Build": "16.7.16",
+            "_comment": "set on 2026-05-13, was 16.7.15"
         },
         "17": {
             "Build": "17.7.7",
@@ -72,8 +72,8 @@
             "_comment": "set on 2026-04-29, was 18.7.7"
         },
         "26": {
-            "Build": "26.4.2",
-            "_comment": "set on 2026-04-29, was 26.4.1"
+            "Build": "26.5",
+            "_comment": "set on 2026-05-13, was 26.4.2"
         },
         "Future": {
             "Build": "27.0",
@@ -86,12 +86,12 @@
             "_comment": "set a long time ago"
         },
         "Sonoma": {
-            "Build": "14.8.5",
-            "_comment": "set on 2026-04-01, was 14.8.4"
+            "Build": "14.8.7",
+            "_comment": "set on 2026-05-13, was 14.8.5"
         },
         "Sequoia": {
-            "Build": "15.7.5",
-            "_comment": "set on 2026-03-27, was 15.7.4"
+            "Build": "15.7.7",
+            "_comment": "set on 2026-05-13, was 15.7.5"
         },
         "Tahoe": {
             "Build": "26.4.1",
