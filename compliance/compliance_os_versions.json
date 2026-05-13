@@ -1,8 +1,8 @@
 {
     "Windows10": {
         "22H2": {
-            "Build": "10.0.19045.7058",
-            "_comment": "set on 2026-04-16, was 6937, 7058 is 2026-03"
+            "Build": "10.0.19045.7184",
+            "_comment": "set on 2026-05-13, was 7058, 7184 is 2026-04"
         }
     },
     "Windows11": {
@@ -11,28 +11,28 @@
             "_comment": "set on 2025-11-13, 6060 is 2025-10 and End of servicing"
         },
         "23H2": {
-            "Build": "10.0.22631.6783",
-            "_comment": "set on 2026-04-16, was 6649, 6783 is 2026-03"
+            "Build": "10.0.22631.6936",
+            "_comment": "set on 2026-05-13, was 6783, 6936 is 2026-04"
         },
         "24H2": {
-            "Build": "10.0.26100.7979",
-            "_comment": "set on 2026-04-16, was 7840, 7979 is Hotpatch from 2026-03-10"
+            "Build": "10.0.26100.8246",
+            "_comment": "set on 2026-05-13, was 7979, 8246 is hotpatch and baseline from 2026-04"
         },
         "24H2-Beta": {
             "Build": "10.0.26120.6982",
             "_comment": "set on 2025-12-11, 6982 is 2025-10-24, Source is en.wikipedia.org/wiki/Windows_11_version_history"
         },
         "25H2": {
-            "Build": "10.0.26200.7979",
-            "_comment": "set on 2026-04-16, was 7781, 7979 is Hotpatch from 2026-03-10, 7781 is Hotpatch from 2026-02-10"
+            "Build": "10.0.26200.8246",
+            "_comment": "set on 2026-05-13, was 7979, 8246 is hotpatch and baseline from 2026-04"
         },
         "25H2-Beta": {
             "Build": "10.0.26220.7872",
             "_comment": "set on 2026-03-11, was 6982, 6982 is 2025-10-24, 7872 is 2026-02-20"
         },
         "26H1": {
-            "Build": "10.0.28000.1719",
-            "_comment": "set on 2026-04-16, 1719 is release from 2026-03-10"
+            "Build": "10.0.28000.1836",
+            "_comment": "set on 2026-05-13, was 1719, 1836 is 2026-04"
         },
         "Future": {
             "Build": "10.0.26221.0",
