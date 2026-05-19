@@ -29,10 +29,10 @@
                 "Build": "17.7.7"
             },
             "minimum_warning": {
-                "Build": ""
+                "Build": "18.7.8"
             },
             "minimum_wipe": {
-                "Build": ""
+                "Build": "17.0"
             }
         },
         "unmanaged": {
@@ -40,10 +40,10 @@
                 "Build": "17.7.7"
             },
             "minimum_warning": {
-                "Build": ""
+                "Build": "18.7.8"
             },
             "minimum_wipe": {
-                "Build": ""
+                "Build": "17.0"
             }
         }
     }
