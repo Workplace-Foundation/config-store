@@ -56,8 +56,8 @@
     },
     "iOSiPadOS": {
         "15": {
-            "Build": "15.8.7",
-            "_comment": "set on 2026-02-26"
+            "Build": "15.8.8",
+            "_comment": "set on 2026-06-08, was 15.8.7"
         },
         "16": {
             "Build": "16.7.16",
