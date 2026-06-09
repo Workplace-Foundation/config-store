@@ -56,20 +56,20 @@
     },
     "iOSiPadOS": {
         "15": {
-            "Build": "15.8.7",
-            "_comment": "set on 2026-02-26"
+            "Build": "15.8.8",
+            "_comment": "set on 2026-06-08, was 15.8.7"
         },
         "16": {
             "Build": "16.7.16",
             "_comment": "set on 2026-05-13, was 16.7.15"
         },
         "17": {
-            "Build": "17.7.7",
-            "_comment": "set on 2025-10-15, info iPadOS already on 17.7.10"
+            "Build": "17.7.11",
+            "_comment": "set on 2026-06-08, info: all iphones with iOS17 can update to 18"
         },
         "18": {
-            "Build": "18.7.8",
-            "_comment": "set on 2026-04-29, was 18.7.7"
+            "Build": "18.7.9",
+            "_comment": "set on 2026-06-08, was 18.7.8"
         },
         "26": {
             "Build": "26.5",
