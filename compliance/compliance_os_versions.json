@@ -1,8 +1,8 @@
 {
     "Windows10": {
         "22H2": {
-            "Build": "10.0.19045.7184",
-            "_comment": "set on 2026-05-13, was 7058, 7184 is 2026-04"
+            "Build": "10.0.19045.7291",
+            "_comment": "set on 2026-06-11, was 7184, 7291 is 2026-05"
         }
     },
     "Windows11": {
@@ -11,28 +11,28 @@
             "_comment": "set on 2025-11-13, 6060 is 2025-10 and End of servicing"
         },
         "23H2": {
-            "Build": "10.0.22631.6936",
-            "_comment": "set on 2026-05-13, was 6783, 6936 is 2026-04"
+            "Build": "10.0.22631.7079",
+            "_comment": "set on 2026-06-11, was 6936, 7079 is 2026-05"
         },
         "24H2": {
-            "Build": "10.0.26100.8246",
-            "_comment": "set on 2026-05-13, was 7979, 8246 is hotpatch and baseline from 2026-04"
+            "Build": "10.0.26100.8390",
+            "_comment": "set on 2026-06-11, was 8246, 8390 is hotpatch from 2026-05"
         },
         "24H2-Beta": {
             "Build": "10.0.26120.6982",
-            "_comment": "set on 2025-12-11, 6982 is 2025-10-24, Source is en.wikipedia.org/wiki/Windows_11_version_history"
+            "_comment": "set on 2025-12-11, 6982 is 2025-10-24"
         },
         "25H2": {
-            "Build": "10.0.26200.8246",
-            "_comment": "set on 2026-05-13, was 7979, 8246 is hotpatch and baseline from 2026-04"
+            "Build": "10.0.26200.8390",
+            "_comment": "set on 2026-06-11, was 8246, 8390 is hotpatch from 2026-05"
         },
         "25H2-Beta": {
-            "Build": "10.0.26220.7872",
-            "_comment": "set on 2026-03-11, was 6982, 6982 is 2025-10-24, 7872 is 2026-02-20"
+            "Build": "10.0.26220.8474",
+            "_comment": "set on 2026-06-11, was 7872"
         },
         "26H1": {
-            "Build": "10.0.28000.1836",
-            "_comment": "set on 2026-05-13, was 1719, 1836 is 2026-04"
+            "Build": "10.0.28000.2113",
+            "_comment": "set on 2026-06-11, was 1836, 2113 is 2026-05"
         },
         "Future": {
             "Build": "10.0.26221.0",
@@ -41,9 +41,9 @@
     },
     "Windows-Notification-Template-Text": {
         "CU-month": {
-            "de-de": "April 2026 Patch",
-            "en-us": "April 2026 patch",
-            "_comment": "set on 2026-05-27"
+            "de-de": "Mai 2026 Patch",
+            "en-us": "May 2026 patch",
+            "_comment": "set on 2026-06-11"
         }
     },
     "Android": {
