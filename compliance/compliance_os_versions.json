@@ -77,10 +77,6 @@
         }
     },
     "macOS": {
-        "Ventura": {
-            "Build": "13.7.8",
-            "_comment": "set a long time ago"
-        },
         "Sonoma": {
             "Build": "14.8.7",
             "_comment": "set on 2026-05-13, was 14.8.5"
