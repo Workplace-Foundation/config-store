@@ -68,8 +68,8 @@
             "_comment": "set on 2026-06-08, was 18.7.8"
         },
         "26": {
-            "Build": "26.5.2",
-            "_comment": "set on 2026-07-08, was 26.5"
+            "Build": "26.6",
+            "_comment": "set on 2026-07-29, was 26.5.2"
         },
         "Future": {
             "Build": "27.0",
@@ -78,12 +78,12 @@
     },
     "macOS": {
         "Sonoma": {
-            "Build": "14.8.7",
-            "_comment": "set on 2026-05-13, was 14.8.5"
+            "Build": "14.8.8",
+            "_comment": "set on 2026-07-29, was 14.8.7"
         },
         "Sequoia": {
-            "Build": "15.7.7",
-            "_comment": "set on 2026-05-13, was 15.7.5"
+            "Build": "15.7.8",
+            "_comment": "set on 2026-07-29, was 15.7.7"
         },
         "Tahoe": {
             "Build": "26.5.1",
