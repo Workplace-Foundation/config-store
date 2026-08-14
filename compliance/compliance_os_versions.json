@@ -1,8 +1,8 @@
 {
     "Windows10": {
         "22H2": {
-            "Build": "10.0.19045.7417",
-            "_comment": "set on 2026-07-15, was 7291"
+            "Build": "10.0.19045.7548",
+            "_comment": "set on 2026-08-14, was 7417"
         }
     },
     "Windows11": {
@@ -11,24 +11,24 @@
             "_comment": "set on 2025-11-13, 6060 is 2025-10 and End of servicing"
         },
         "23H2": {
-            "Build": "10.0.22631.7219",
-            "_comment": "set on 2026-07-15, was 7079, 7219 is 2026-06"
+            "Build": "10.0.22631.7376",
+            "_comment": "set on 2026-08-14, was 7219, 7376 is 2026-07"
         },
         "24H2": {
-            "Build": "10.0.26100.8655",
-            "_comment": "set on 2026-07-15, was 8390, 8655 is baseline from 2026-06, no hotpatch available in 2026-06"
+            "Build": "10.0.26100.8875",
+            "_comment": "set on 2026-08-14, was 8655, 8875 is baseline from 2026-07, no hotpatch available in 2026-07"
         },
         "25H2": {
-            "Build": "10.0.26200.8655",
-            "_comment": "set on 2026-07-15, was 8390, 8655 is baseline from 2026-06, no hotpatch available in 2026-06"
+            "Build": "10.0.26200.8875",
+            "_comment": "set on 2026-08-14, was 8655, 8875 is baseline from 2026-07, no hotpatch available in 2026-07"
         },
         "25H2-Beta": {
-            "Build": "10.0.26220.8680",
-            "_comment": "set on 2026-07-15, was 8474, 8680 is 2026-06"
+            "Build": "10.0.26220.8925",
+            "_comment": "set on 2026-08-14, was 8680, 8925 is 2026-07"
         },
         "26H1": {
-            "Build": "10.0.28000.2333",
-            "_comment": "set on 2026-07-15, was 2113, 2333 is 2026-06"
+            "Build": "10.0.28000.2525",
+            "_comment": "set on 2026-08-14, was 2333, 2525 is 2026-07"
         },
         "Future": {
             "Build": "10.0.26221.0",
@@ -37,9 +37,9 @@
     },
     "Windows-Notification-Template-Text": {
         "CU-month": {
-            "de-de": "Juni 2026 Patch",
-            "en-us": "June 2026 patch",
-            "_comment": "set on 2026-07-15"
+            "de-de": "Juli 2026 Patch",
+            "en-us": "July 2026 patch",
+            "_comment": "set on 2026-08-14"
         }
     },
     "Android": {
