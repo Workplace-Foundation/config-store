@@ -90,8 +90,8 @@
             "_comment": "set on 2026-08-20, was 15.7.8"
         },
         "Tahoe": {
-            "Build": "26.6.2",
-            "_comment": "set on 2026-08-20, was 26.6"
+            "Build": "26.6.1",
+            "_comment": "set on 2026-08-20, was 26.6, hold at 26.6.1 until default_ring enforces 26.6.2 on 2026-08-27, then bump"
         },
         "Future": {
             "Build": "27.0",
