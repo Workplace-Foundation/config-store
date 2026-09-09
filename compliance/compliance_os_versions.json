@@ -1,8 +1,8 @@
 {
     "Windows10": {
         "22H2": {
-            "Build": "10.0.19045.7548",
-            "_comment": "set on 2026-08-14, was 7417"
+            "Build": "10.0.19045.7663",
+            "_comment": "set on 2026-09-09, was 7548, 7663 is 2026-08"
         }
     },
     "Windows11": {
@@ -11,28 +11,32 @@
             "_comment": "set on 2025-11-13, 6060 is 2025-10 and End of servicing"
         },
         "23H2": {
-            "Build": "10.0.22631.7376",
-            "_comment": "set on 2026-08-14, was 7219, 7376 is 2026-07"
+            "Build": "10.0.22631.7517",
+            "_comment": "set on 2026-09-09, was 7376, 7517 is 2026-08"
         },
         "24H2": {
-            "Build": "10.0.26100.8875",
-            "_comment": "set on 2026-08-14, was 8655, 8875 is baseline from 2026-07, no hotpatch available in 2026-07"
+            "Build": "10.0.26100.9106",
+            "_comment": "set on 2026-09-09, was 8875, 9106 is 2026-08 hotpatch build (KB5120994)"
         },
         "25H2": {
-            "Build": "10.0.26200.8875",
-            "_comment": "set on 2026-08-14, was 8655, 8875 is baseline from 2026-07, no hotpatch available in 2026-07"
+            "Build": "10.0.26200.9106",
+            "_comment": "set on 2026-09-09, was 8875, 9106 is 2026-08 hotpatch build (KB5120994)"
         },
         "25H2-Beta": {
-            "Build": "10.0.26220.8925",
-            "_comment": "set on 2026-08-14, was 8680, 8925 is 2026-07"
+            "Build": "10.0.26220.9223",
+            "_comment": "set on 2026-09-09, was 8925, 9223 is latest Beta channel flight (2026-09-02)"
         },
         "26H2": {
-            "Build": "10.0.26300.9032",
-            "_comment": "set on 2026-08-18, new entry"
+            "Build": "10.0.26300.9278",
+            "_comment": "set on 2026-09-09, was 9032, 9278 is Release Preview channel build (2026-08-27)"
         },
         "26H1": {
-            "Build": "10.0.28000.2525",
-            "_comment": "set on 2026-08-14, was 2333, 2525 is 2026-07"
+            "Build": "10.0.28000.2704",
+            "_comment": "set on 2026-09-09, was 2525, 2704 is 2026-08"
+        },
+        "26H2-Beta26340": {
+            "Build": "10.0.26340.9354",
+            "_comment": "set on 2026-09-09, new entry, tracks the 26H2 Experimental channel (branch 26340)"
         },
         "Future": {
             "Build": "10.0.28001.0",
