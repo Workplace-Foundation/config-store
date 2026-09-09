@@ -76,8 +76,8 @@
             "_comment": "set on 2026-08-20, was 18.7.9"
         },
         "26": {
-            "Build": "26.6.1",
-            "_comment": "set on 2026-08-20, was 26.6"
+            "Build": "26.6.2",
+            "_comment": "set on 2026-09-09, was 26.6.1"
         },
         "Future": {
             "Build": "27.0",
@@ -87,7 +87,7 @@
     "macOS": {
         "Sonoma": {
             "Build": "14.8.9",
-            "_comment": "set on 2026-08-20, was 14.8.8"
+            "_comment": "set on 2026-08-20, was 14.8.8, 14.8.9 is End of servicing (2026-08-17)"
         },
         "Sequoia": {
             "Build": "15.7.9",
