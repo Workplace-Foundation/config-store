@@ -76,12 +76,12 @@
             "_comment": "set on 2026-08-20, was 18.7.9"
         },
         "26": {
-            "Build": "26.7",
-            "_comment": "set on 2026-09-22, was 26.6.2"
+            "Build": "26.7.1",
+            "_comment": "set on 2026-10-02, was 26.7, fixes actively exploited CVE-2026-86950"
         },
         "27": {
-            "Build": "27.0",
-            "_comment": "set on 2026-09-10, new entry, ships 2026-09-14"
+            "Build": "27.0.1",
+            "_comment": "set on 2026-10-02, was 27.0, bug-fix release"
         },
         "Future": {
             "Build": "28.0",
@@ -94,16 +94,16 @@
             "_comment": "set on 2026-08-20, was 14.8.8, 14.8.9 is End of servicing (2026-08-17)"
         },
         "Sequoia": {
-            "Build": "15.8",
-            "_comment": "set on 2026-09-22, was 15.7.9"
+            "Build": "15.8.1",
+            "_comment": "set on 2026-10-02, was 15.8, fixes actively exploited CVE-2026-86950"
         },
         "Tahoe": {
-            "Build": "26.6.2",
-            "_comment": "set on 2026-09-02, was 26.6.1"
+            "Build": "26.7",
+            "_comment": "set on 2026-10-02, was 26.6.2, default_ring rollout target (2026-09-29) has passed"
         },
         "GoldenGate": {
-            "Build": "27.0",
-            "_comment": "set on 2026-09-22, new entry, macOS 27 'Golden Gate', released 2026-09-14; safe to track as of WF v3.23.0 (fully config-store driven, no code change needed)"
+            "Build": "27.0.1",
+            "_comment": "set on 2026-10-02, was 27.0, bug-fix release"
         },
         "Future": {
             "Build": "28.0",
