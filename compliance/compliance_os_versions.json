@@ -98,8 +98,8 @@
             "_comment": "set on 2026-10-02, was 15.8, fixes actively exploited CVE-2026-86950"
         },
         "Tahoe": {
-            "Build": "26.7",
-            "_comment": "set on 2026-10-02, was 26.6.2, default_ring rollout target (2026-09-29) has passed"
+            "Build": "26.7.1",
+            "_comment": "set on 2026-10-09, was 26.7, default_ring rollout target (2026-10-09) has passed"
         },
         "GoldenGate": {
             "Build": "27.0.1",
