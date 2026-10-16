@@ -1,8 +1,8 @@
 {
     "Windows10": {
         "22H2": {
-            "Build": "10.0.19045.7663",
-            "_comment": "set on 2026-09-09, was 7548, 7663 is 2026-08"
+            "Build": "10.0.19045.7725",
+            "_comment": "set on 2026-10-14, was 7663, 7725 is September regular Patch Tuesday (2026-09-08, KB5122878)"
         }
     },
     "Windows11": {
@@ -11,32 +11,32 @@
             "_comment": "set on 2025-11-13, 6060 is 2025-10 and End of servicing"
         },
         "23H2": {
-            "Build": "10.0.22631.7517",
-            "_comment": "set on 2026-09-09, was 7376, 7517 is 2026-08"
+            "Build": "10.0.22631.7582",
+            "_comment": "set on 2026-10-14, was 7517, 7582 is September regular Patch Tuesday (2026-09-08, KB5122880)"
         },
         "24H2": {
-            "Build": "10.0.26100.9106",
-            "_comment": "set on 2026-09-09, was 8875, 9106 is 2026-08 hotpatch build (KB5120994)"
+            "Build": "10.0.26100.9445",
+            "_comment": "set on 2026-10-14, was 9106 (hotpatch), 9445 is September regular Patch Tuesday (2026-09-08, KB5124008)"
         },
         "25H2": {
-            "Build": "10.0.26200.9106",
-            "_comment": "set on 2026-09-09, was 8875, 9106 is 2026-08 hotpatch build (KB5120994)"
+            "Build": "10.0.26200.9445",
+            "_comment": "set on 2026-10-14, was 9106 (hotpatch), 9445 is September regular Patch Tuesday (2026-09-08, KB5124008)"
         },
         "25H2-Beta": {
-            "Build": "10.0.26220.9223",
-            "_comment": "set on 2026-09-09, was 8925, 9223 is latest Beta channel flight (2026-09-02)"
+            "Build": "10.0.26220.9606",
+            "_comment": "set on 2026-10-14, was 9223, 9606 is latest Beta channel flight (2026-10-07)"
         },
         "26H2": {
-            "Build": "10.0.26300.9278",
-            "_comment": "set on 2026-09-09, was 9032, 9278 is Release Preview channel build (2026-08-27)"
+            "Build": "10.0.26300.9457",
+            "_comment": "set on 2026-10-14, was 9278 (Release Preview); 26H2 went GA 2026-09-29, this key now tracks the GA/stable channel; 9457 is its RTM build (2026-09-14, KB5129195), kept at September level"
         },
         "26H1": {
-            "Build": "10.0.28000.2704",
-            "_comment": "set on 2026-09-09, was 2525, 2704 is 2026-08"
+            "Build": "10.0.28000.2954",
+            "_comment": "set on 2026-10-14, was 2704, 2954 is September regular Patch Tuesday (2026-09-08, KB5124012)"
         },
         "26H2-Beta26340": {
-            "Build": "10.0.26340.9354",
-            "_comment": "set on 2026-09-09, new entry, tracks the 26H2 Experimental channel (branch 26340)"
+            "Build": "10.0.26340.9616",
+            "_comment": "set on 2026-10-14, was 9354, latest Experimental channel flight (2026-10-07)"
         },
         "Future": {
             "Build": "10.0.28001.0",
@@ -45,9 +45,9 @@
     },
     "Windows-Notification-Template-Text": {
         "CU-month": {
-            "de-de": "August 2026 Patch",
-            "en-us": "August 2026 patch",
-            "_comment": "set on 2026-09-09, was July 2026"
+            "de-de": "September 2026 Patch",
+            "en-us": "September 2026 patch",
+            "_comment": "set on 2026-10-14, was August 2026"
         }
     },
     "Android": {
