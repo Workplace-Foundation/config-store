@@ -91,6 +91,18 @@ current "newest", Future):
      preview/Release-Preview-style build has actually gone GA, say so
      explicitly and ask whether to repurpose the key rather than silently
      relabeling it.
+   - **Device-coverage regressions (the mirror case)**: don't just take "the
+     highest version number" for a major at face value — compare the
+     candidate build's `SupportedDevices` list against the build currently
+     in the file (or, if GDMF still lists the current build too, against
+     that entry directly). If any device model covered by the current build
+     is *missing* from the candidate's `SupportedDevices`, some already-
+     supported devices can't install it yet. This has actually happened:
+     not all 26.x devices could update to the then-newest point release:
+     only the *next* release after that was available fleet-wide. In that
+     situation, do not bump compliance to the newer-but-narrower build -
+     say so explicitly and hold at the current build until a release comes
+     out that covers every device the current build does.
    - **"Future" entries**: never move Future except to keep it above the
      highest now-tracked major (i.e. only when a new major gets added).
 5. `Future` placeholders aside, apply each approved change immediately with
