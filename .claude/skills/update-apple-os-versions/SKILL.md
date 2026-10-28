@@ -87,10 +87,10 @@ current "newest", Future):
      the new baseline, and keep tracking the prior general build until a
      general release (e.g. "iOS 27.1" exclusive to one device vs. "iOS 27.2"
      for everyone).
-   - **Channel status changes**: if an Insider/Beta/Release-Preview-labeled
-     Windows-style channel (or a macOS entry you're tracking as a preview)
-     has actually gone GA, say so explicitly and ask whether to repurpose
-     the key rather than silently relabeling it.
+   - **Channel status changes**: if a macOS entry you're tracking as a
+     preview/Release-Preview-style build has actually gone GA, say so
+     explicitly and ask whether to repurpose the key rather than silently
+     relabeling it.
    - **"Future" entries**: never move Future except to keep it above the
      highest now-tracked major (i.e. only when a new major gets added).
 5. `Future` placeholders aside, apply each approved change immediately with
@@ -120,14 +120,7 @@ e.g. `Tahoe`) is handled differently from every other entry, because of
      target that hasn't passed yet. If this was done by mistake earlier in
      the session, revert it and say so plainly.
 
-## 5. Also sanity-check hotpatch-affected majors if relevant
-
-Not applicable to Apple (no hotpatch mechanism), but if this skill is ever
-extended to Windows: regular monthly builds can diverge from hotpatch-track
-builds except in quarterly "baseline" months — verify via Microsoft's
-Hotpatch release notes page before assuming one number covers both tracks.
-
-## 6. Summarize, then commit/push/PR
+## 5. Summarize, then commit/push/PR
 
 - Show a full before/after table (all tracked majors, not just the changed
   ones) before committing.
