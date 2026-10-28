@@ -33,11 +33,14 @@ validation (`UntrustedRoot` / self-signed cert in chain), so it needs:
 Invoke-WebRequest -Uri "https://gdmf.apple.com/v2/pmv" -SkipCertificateCheck -OutFile <path>
 ```
 
-- If the auto-mode permission classifier denies this (TLS/Auth Weaken), **do
-  not** try to route around it via curl/Bash with `-k` or similar — that's
-  the same bypass under a different name. Fall back to WebSearch for each
-  major instead (it has worked fine in past weeks), and mention to the user
-  once that standing PowerShell permission would avoid the fallback.
+- If the fetch fails for any reason — the auto-mode permission classifier
+  denies it (TLS/Auth Weaken), a network/timeout error, a non-200 response,
+  etc. — **always show the user an explicit warning saying the GDMF download
+  was not successful** (don't let it pass silently), then fall back to
+  WebSearch for each major instead (it has worked fine in past weeks). Do
+  this every time it happens, not just once.
+- Do **not** try to route around a classifier denial via curl/Bash with `-k`
+  or similar — that's the same bypass under a different name.
 - If the user asks to save the raw file somewhere (e.g. Downloads), download
   it directly with `Invoke-WebRequest -OutFile`, not a re-serialized/pretty-
   printed copy — they asked for the *original source* before and a
