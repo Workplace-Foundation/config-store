@@ -109,5 +109,11 @@
             "Build": "28.0",
             "_comment": "set on 2026-09-22, was 27.0, bumped above GoldenGate (now tracked)"
         }
+    },
+    "Defender": {
+        "macOS": {
+            "Build": "101.26052.0016",
+            "_comment": "set on 2026-10-16, oldest accepted Microsoft Defender for Endpoint on macOS app version (July 2026 release 101.26052.0016); used by the macOS Defender Updates custom compliance policy"
+        }
     }
 }
