@@ -60,9 +60,16 @@ foreach ($e in $j.PublicAssetSets.iOS) {
 # macOS: ProductVersion starting with the tracked majors (14/15/26/27 etc.)
 ```
 
-Always also check each `SupportedDevices` list when a brand-new
-`ProductVersion` shows up for a major you don't expect yet (see step 3,
-device-exclusive releases).
+**Group by `ProductVersion` - don't just take the first match.** GDMF
+routinely lists *several* `Build` entries under the same `ProductVersion`,
+one per device family (standard iPhones/iPads, a brand-new iPad or Mac
+model, the newest iPhone, etc.). Taking an arbitrary single entry per
+version is a real trap: it has produced a false "this is a tiny exclusive
+release" reading for a version that was actually a normal general release
+with a few extra device-specific builds alongside it. For each version,
+collect *every* entry and look at the one with the most devices before
+concluding anything about how general or exclusive that version is - see
+step 3 for what to do with that information.
 
 ## 2. Read current state
 
@@ -84,28 +91,38 @@ current "newest", Future):
    old → new value with the "why", then **wait for explicit approval**
    before editing the file.
 4. Watch for these gotchas before proposing a bump:
-   - **Device-exclusive releases**: a new `ProductVersion` in GDMF whose
-     `SupportedDevices` lists only one specific model (e.g. a new phone/
-     foldable) is not a general fleet release. Flag it, don't propose it as
-     the new baseline, and keep tracking the prior general build until a
-     general release (e.g. "iOS 27.1" exclusive to one device vs. "iOS 27.2"
-     for everyone).
+   - **Device coverage - compare device *sets*, not device counts or raw
+     version numbers.** The rule: the compliance build for a major is the
+     highest version where every device the *current* build covers is
+     still covered by the candidate. Don't shortcut this with "pick
+     whichever entry has the most devices" - a newer version could add a
+     pile of new-hardware support (raising its total count) while also
+     silently dropping one model the current build still covers; counting
+     devices hides that, comparing the actual device lists doesn't.
+     - **Device-exclusive releases**: if *no* entry for a new `ProductVersion`
+       covers anything close to the current build's device set - e.g. the
+       only entry is a single new phone/foldable model - it hasn't gone
+       general yet. Flag it, don't propose it as the new baseline, and keep
+       tracking the prior build until a release lands that actually covers
+       the fleet (e.g. "iOS 27.1" exclusive to one device vs. "iOS 27.2" for
+       everyone two versions later).
+     - **Device-coverage regressions (the mirror case)**: if the candidate's
+       broadest entry is *missing* a device model the current build's entry
+       covers, some already-supported devices can't install it yet. This has
+       actually happened (not all 26.x devices could update to the
+       then-newest point release - only the *next* release reached
+       everyone). Real-world causes include a hardware-specific bug found
+       late, a deliberately staged rollout, carrier/regulatory certification
+       lag for specific models, or device-specific firmware packaging
+       trailing the main release - the skill doesn't need to know which one
+       applies, just notice the symptom. In that situation, do not bump
+       compliance to the newer-but-narrower build - say so explicitly and
+       hold at the current build until a release covers every device the
+       current build does.
    - **Channel status changes**: if a macOS entry you're tracking as a
      preview/Release-Preview-style build has actually gone GA, say so
      explicitly and ask whether to repurpose the key rather than silently
      relabeling it.
-   - **Device-coverage regressions (the mirror case)**: don't just take "the
-     highest version number" for a major at face value — compare the
-     candidate build's `SupportedDevices` list against the build currently
-     in the file (or, if GDMF still lists the current build too, against
-     that entry directly). If any device model covered by the current build
-     is *missing* from the candidate's `SupportedDevices`, some already-
-     supported devices can't install it yet. This has actually happened:
-     not all 26.x devices could update to the then-newest point release:
-     only the *next* release after that was available fleet-wide. In that
-     situation, do not bump compliance to the newer-but-narrower build -
-     say so explicitly and hold at the current build until a release comes
-     out that covers every device the current build does.
    - **"Future" entries**: never move Future except to keep it above the
      highest now-tracked major (i.e. only when a new major gets added).
 5. `Future` placeholders aside, apply each approved change immediately with
