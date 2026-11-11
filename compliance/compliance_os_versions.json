@@ -72,16 +72,16 @@
             "_comment": "set on 2026-06-08, info: all iphones with iOS17 can update to 18"
         },
         "18": {
-            "Build": "18.7.11",
-            "_comment": "set on 2026-10-28, was 18.7.10, part of the 2026-10-26 coordinated security wave"
+            "Build": "18.7.12",
+            "_comment": "set on 2026-11-11, was 18.7.11, part of the 2026-11-09 security wave"
         },
         "26": {
-            "Build": "26.7.2",
-            "_comment": "set on 2026-10-28, was 26.7.1, part of the 2026-10-26 coordinated security wave"
+            "Build": "26.7.3",
+            "_comment": "set on 2026-11-11, was 26.7.2, part of the 2026-11-09 security wave"
         },
         "27": {
-            "Build": "27.2",
-            "_comment": "set on 2026-10-28, was 27.0.1, general release (2026-10-26), skips 27.1 (iPhone Duo-exclusive)"
+            "Build": "27.2.1",
+            "_comment": "set on 2026-11-11, was 27.2, fixes CVE-2026-111497 (Brotli, CISA KEV-listed); general build 24B156/24B6156, narrower variants are new-device-exclusive (iPhone Duo, new iPad)"
         },
         "Future": {
             "Build": "28.0",
@@ -94,16 +94,16 @@
             "_comment": "set on 2026-08-20, was 14.8.8, 14.8.9 is End of servicing (2026-08-17)"
         },
         "Sequoia": {
-            "Build": "15.8.2",
-            "_comment": "set on 2026-10-28, was 15.8.1, part of the 2026-10-26 coordinated security wave (build 24H232)"
+            "Build": "15.8.3",
+            "_comment": "set on 2026-11-11, was 15.8.2, part of the 2026-11-09 security wave (build 24H241)"
         },
         "Tahoe": {
             "Build": "26.7.2",
             "_comment": "set on 2026-11-04, was 26.7.1, default_ring rollout target (2026-11-04) has passed"
         },
         "GoldenGate": {
-            "Build": "27.2",
-            "_comment": "set on 2026-10-28, was 27.0.1, general release (2026-10-26, build 26B123)"
+            "Build": "27.2.1",
+            "_comment": "set on 2026-11-11, was 27.2, part of the 2026-11-09 security wave (build 26B131); narrower variants (26B8132, 26B7131) are new Mac-hardware-exclusive"
         },
         "Future": {
             "Build": "28.0",
