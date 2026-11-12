@@ -1,8 +1,8 @@
 {
     "Windows10": {
         "22H2": {
-            "Build": "10.0.19045.7725",
-            "_comment": "set on 2026-10-14, was 7663, 7725 is September regular Patch Tuesday (2026-09-08, KB5122878)"
+            "Build": "10.0.19045.7807",
+            "_comment": "set on 2026-11-11, was 7725, 7807 is October regular Patch Tuesday (2026-10-13, KB5126657)"
         }
     },
     "Windows11": {
@@ -11,32 +11,36 @@
             "_comment": "set on 2025-11-13, 6060 is 2025-10 and End of servicing"
         },
         "23H2": {
-            "Build": "10.0.22631.7582",
-            "_comment": "set on 2026-10-14, was 7517, 7582 is September regular Patch Tuesday (2026-09-08, KB5122880)"
+            "Build": "10.0.22631.7652",
+            "_comment": "set on 2026-11-11, was 7582, 7652 is October regular Patch Tuesday (2026-10-13, KB5126653)"
         },
         "24H2": {
-            "Build": "10.0.26100.9445",
-            "_comment": "set on 2026-10-14, was 9106 (hotpatch), 9445 is September regular Patch Tuesday (2026-09-08, KB5124008)"
+            "Build": "10.0.26100.9711",
+            "_comment": "set on 2026-11-11, was 9445, 9711 is October regular Patch Tuesday (2026-10-13, KB5127648); 2026-10-13 was EoS for 24H2 Home/Pro, but our fleet is Enterprise (serviced through Oct 2027) so this key keeps getting bumped monthly"
         },
         "25H2": {
-            "Build": "10.0.26200.9445",
-            "_comment": "set on 2026-10-14, was 9106 (hotpatch), 9445 is September regular Patch Tuesday (2026-09-08, KB5124008)"
+            "Build": "10.0.26200.9711",
+            "_comment": "set on 2026-11-11, was 9445, 9711 is October regular Patch Tuesday (2026-10-13, KB5127648)"
         },
         "25H2-Beta": {
             "Build": "10.0.26220.9606",
-            "_comment": "set on 2026-10-14, was 9223, 9606 is latest Beta channel flight (2026-10-07)"
+            "_comment": "set on 2026-10-14, frozen here - branch 26220 retired 2026-11-06, Beta channel moved to branch 26320 via enablement package (same mechanism as a normal feature-update flip, delivered through ordinary Windows Update - any device still here upgrades to 26320 on its own, not stuck). TODO: remove this key entirely once confirmed no device is still reporting 26220"
+        },
+        "26H2-Beta26320": {
+            "Build": "10.0.26320.9877",
+            "_comment": "set on 2026-11-11, new entry - Beta channel moved to branch 26320 on 2026-11-06 via enablement package (from 25H2-Beta's branch 26220, now frozen/retired above); 9877 is latest flight (2026-11-09)"
         },
         "26H2": {
-            "Build": "10.0.26300.9457",
-            "_comment": "set on 2026-10-14, was 9278 (Release Preview); 26H2 went GA 2026-09-29, this key now tracks the GA/stable channel; 9457 is its RTM build (2026-09-14, KB5129195), kept at September level"
+            "Build": "10.0.26300.9711",
+            "_comment": "set on 2026-11-11, was 9457, 9711 is October regular Patch Tuesday (2026-10-13, KB5127648)"
         },
         "26H1": {
-            "Build": "10.0.28000.2954",
-            "_comment": "set on 2026-10-14, was 2704, 2954 is September regular Patch Tuesday (2026-09-08, KB5124012)"
+            "Build": "10.0.28000.3231",
+            "_comment": "set on 2026-11-11, was 2954, 3231 is October regular Patch Tuesday (2026-10-13, KB5127646)"
         },
         "26H2-Beta26340": {
-            "Build": "10.0.26340.9616",
-            "_comment": "set on 2026-10-14, was 9354, latest Experimental channel flight (2026-10-07)"
+            "Build": "10.0.26340.9882",
+            "_comment": "set on 2026-11-11, was 9616, latest Experimental channel flight (2026-11-06)"
         },
         "Future": {
             "Build": "10.0.28001.0",
@@ -45,9 +49,9 @@
     },
     "Windows-Notification-Template-Text": {
         "CU-month": {
-            "de-de": "September 2026 Patch",
-            "en-us": "September 2026 patch",
-            "_comment": "set on 2026-10-14, was August 2026"
+            "de-de": "October 2026 Patch",
+            "en-us": "October 2026 patch",
+            "_comment": "set on 2026-11-11, was September 2026"
         }
     },
     "Android": {
