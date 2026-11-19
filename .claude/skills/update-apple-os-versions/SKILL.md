@@ -60,16 +60,28 @@ foreach ($e in $j.PublicAssetSets.iOS) {
 # macOS: ProductVersion starting with the tracked majors (14/15/26/27 etc.)
 ```
 
-**Group by `ProductVersion` - don't just take the first match.** GDMF
-routinely lists *several* `Build` entries under the same `ProductVersion`,
-one per device family (standard iPhones/iPads, a brand-new iPad or Mac
-model, the newest iPhone, etc.). Taking an arbitrary single entry per
-version is a real trap: it has produced a false "this is a tiny exclusive
-release" reading for a version that was actually a normal general release
-with a few extra device-specific builds alongside it. For each version,
-collect *every* entry and look at the one with the most devices before
-concluding anything about how general or exclusive that version is - see
-step 3 for what to do with that information.
+**Group by `ProductVersion` and union every entry's devices - don't just
+take the first match, and don't just take the single biggest entry
+either.** GDMF routinely lists *several* `Build` entries under the same
+`ProductVersion`: sometimes split by device family (standard iPhones/iPads,
+a brand-new iPad or Mac model, the newest iPhone), and sometimes split for
+no obvious reason at all - the *same* version and build number can appear
+as two separate entries that only together add up to its real coverage
+(seen in practice: iOS 26.7.3 one week showed as one 95-device entry, the
+next week as an 81-device entry plus a separate 14-device entry, same
+build, same total). Taking an arbitrary single entry, or even "the biggest
+one," is a real trap:
+- Taking the first/an arbitrary entry produced a false "this is a tiny
+  exclusive release" reading for a version that was actually general.
+- Taking only the single biggest entry produced a false "14 devices got
+  dropped" reading for a version whose coverage hadn't changed at all - the
+  missing devices were just reported in a second, smaller entry instead of
+  the one big one.
+
+So: for each `ProductVersion`, collect *every* entry and take the union of
+their `SupportedDevices` (dedup by device identifier) as that version's real
+coverage, before concluding anything about how general, exclusive, or
+regressed it is - see step 3 for what to do with that total.
 
 ## 2. Read current state
 
@@ -99,26 +111,27 @@ current "newest", Future):
      pile of new-hardware support (raising its total count) while also
      silently dropping one model the current build still covers; counting
      devices hides that, comparing the actual device lists doesn't.
-     - **Device-exclusive releases**: if *no* entry for a new `ProductVersion`
-       covers anything close to the current build's device set - e.g. the
-       only entry is a single new phone/foldable model - it hasn't gone
-       general yet. Flag it, don't propose it as the new baseline, and keep
-       tracking the prior build until a release lands that actually covers
-       the fleet (e.g. "iOS 27.1" exclusive to one device vs. "iOS 27.2" for
-       everyone two versions later).
-     - **Device-coverage regressions (the mirror case)**: if the candidate's
-       broadest entry is *missing* a device model the current build's entry
-       covers, some already-supported devices can't install it yet. This has
-       actually happened (not all 26.x devices could update to the
-       then-newest point release - only the *next* release reached
-       everyone). Real-world causes include a hardware-specific bug found
-       late, a deliberately staged rollout, carrier/regulatory certification
-       lag for specific models, or device-specific firmware packaging
-       trailing the main release - the skill doesn't need to know which one
-       applies, just notice the symptom. In that situation, do not bump
-       compliance to the newer-but-narrower build - say so explicitly and
-       hold at the current build until a release covers every device the
-       current build does.
+     - **Device-exclusive releases**: if the *unioned* device set for a new
+       `ProductVersion` covers nothing close to the current build's device
+       set - e.g. the only entry anywhere for it is a single new phone/
+       foldable model - it hasn't gone general yet. Flag it, don't propose
+       it as the new baseline, and keep tracking the prior build until a
+       release lands that actually covers the fleet (e.g. "iOS 27.1"
+       exclusive to one device vs. "iOS 27.2" for everyone two versions
+       later).
+     - **Device-coverage regressions (the mirror case)**: if the
+       candidate's *unioned* device set is missing a device model the
+       current build's (also unioned) device set covers, some already-
+       supported devices can't install it yet. This has actually happened
+       (not all 26.x devices could update to the then-newest point release
+       - only the *next* release reached everyone). Real-world causes
+       include a hardware-specific bug found late, a deliberately staged
+       rollout, carrier/regulatory certification lag for specific models,
+       or device-specific firmware packaging trailing the main release -
+       the skill doesn't need to know which one applies, just notice the
+       symptom. In that situation, do not bump compliance to the newer-but-
+       narrower build - say so explicitly and hold at the current build
+       until a release covers every device the current build does.
    - **Channel status changes**: if a macOS entry you're tracking as a
      preview/Release-Preview-style build has actually gone GA, say so
      explicitly and ask whether to repurpose the key rather than silently
